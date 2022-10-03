@@ -83,7 +83,7 @@
     }
 }
 
-.demo{
+.demo, .demo-lungo{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,6 +94,14 @@
     border-radius: 20px;
 }
 
+.demo-lungo h3{
+    color: #0084FD;
+}
+
+.demo-lungo p{
+    padding: 10px;
+}
+
 .demo h3{
     color: #0084FD;
 }
@@ -102,7 +110,7 @@
     padding: 10px;
 }
 
-.demo img{
+.demo-lungo img{
     width: 150px;
 }
 

@@ -135,9 +135,40 @@
     text-align: center;
 }
 
-@media screen and (min-width:376px) and (max-width:810px) {
-    .container-demo{
-        display: flex;
-        flex-wrap: wrap;
-    }
+.container-planning{
+    margin-top: 100px;
+    display: flex ;
+    flex-direction: column;
+    background-color: #9792E4;
+}
+
+.container-planning img{
+    padding-top: 50px;
+    width: 300px;
+}
+
+.planning{
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.planning p, h2{
+    padding-top: 30px;
+}
+
+.app{
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.app i{
+    padding: 10px;
+    color: black;
+    background-color: #9792E4;
+    border-radius: 30px;
+    cursor: pointer;
 }

@@ -82,3 +82,39 @@
         display: none;
     }
 }
+
+.demo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    max-width: 250px;
+    margin: 30px auto;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+}
+
+.demo h3{
+    color: #0084FD;
+}
+
+.demo p{
+    padding: 10px;
+}
+
+.demo img{
+    width: 150px;
+}
+
+.btn-appstore{
+    margin-bottom: 30px;
+    width: 200px;
+    color: white;
+    background-color: #0084FD;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}

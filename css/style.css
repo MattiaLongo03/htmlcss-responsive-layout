@@ -213,6 +213,15 @@
     background-color: #9792E4;
 }
 
+.ben h2{
+    color: white;
+    text-align: center;
+}
+
+.container-benefits{
+    padding-bottom: 10px;
+}
+
 .benefits{
     margin: 20px;
     padding: 30px;
@@ -222,10 +231,12 @@
 
 .benefits h1{
     font-size: 50px;
+    color: #9792E4;
 }
 
-.benefits h1, h2{
+.benefits h2{
     color: #9792E4;
+    text-align: left;
 }
 
 .btn-more{
@@ -237,4 +248,34 @@
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
+}
+
+.container-about-us{
+    margin: 20px;
+}
+
+.about-us-testo h1{
+    margin-bottom: 10px;
+    color: #9792E4;
+    font-size: 50px;
+}
+
+.about-us-immagine img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    clip-path: circle();
+}
+
+.about-us-immagine h3{
+    margin-bottom: 10px;
+    color: #9792E4;
+}
+
+.about-us-immagine p{
+    width: 175px;
+    padding: 5px;
+    color: white;
+    background-color: #9792E4;
+    border-radius: 10px;
 }

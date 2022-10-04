@@ -279,3 +279,44 @@
     background-color: #9792E4;
     border-radius: 10px;
 }
+
+.start{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #9792E4;
+    color: white;
+}
+
+.start h2{
+    color: #FDC15F;
+    font-size: 50px;
+}
+
+.btn-start{
+    margin: 0 auto;
+    padding: 20px;
+    width: 200px;
+    background-color: white;
+    color: #9792E4;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.opaco{
+    opacity: 50%;
+}
+
+footer{
+    background-color: #333333;
+    color:white;
+    text-align: center;
+}
+
+.testo-footer{
+    padding: 30px;
+}
+
+span{
+    color: #9792E4;
+    text-decoration: underline;
+}

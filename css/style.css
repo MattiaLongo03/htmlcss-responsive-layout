@@ -172,3 +172,44 @@
     border-radius: 30px;
     cursor: pointer;
 }
+
+.testimonials{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testo-testimonials{
+   text-align: center;
+}
+
+.testo-testimonials h2{
+    color: #9792E4;
+ }
+
+.testimoni{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9792E4;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.testimoni p{
+    padding: 10px;
+}
+
+.testimoni i{
+    display: inline;
+    color: white;
+}
+
+.testimoni img{
+    margin-top: 10px;
+    width: 150px;
+    clip-path: circle();
+}
